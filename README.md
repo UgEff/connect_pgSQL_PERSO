@@ -1,4 +1,4 @@
-#PostgreSQL Data Retrieval Project
+# PostgreSQL Data Retrieval Project
 
 ## Description
 Ce projet consiste à se connecter à une base de données PostgreSQL, récupérer des données à partir d'une table spécifique et les afficher dans un environnement Python.
@@ -10,7 +10,7 @@ Ce projet consiste à se connecter à une base de données PostgreSQL, récupér
   - `psycopg2` pour se connecter à PostgreSQL
   - `pandas` (optionnel) pour manipuler et afficher les données sous forme de tableau
 
-###Bibliothèques à installer
+### Bibliothèques à installer
 
 ```bash
 pip install psycopg2 pandas python-dotenv
@@ -56,6 +56,6 @@ finally:
         print("Connexion fermée")
 ```
 
-###Conclusion
+### Conclusion
 
 Ce projet constitue une base solide pour la connexion à une base de données PostgreSQL en Python. Il peut être étendu pour inclure des fonctionnalités supplémentaires telles que la manipulation des données, l'optimisation des requêtes, ou encore l'intégration dans des applications , l'objectif est de realiser la data ingestion d'un fichier en Base et de recuperer cette data Sur Tableau sowftware
